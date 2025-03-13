@@ -5,7 +5,7 @@
   "author": "LiveKit",
   "repository": {
     "type": "git",
-    "url": "https://github.com/livekit/components-js.git",
+    "url": "https://github.com/alvarez0l/components-js.git",
     "directory": "/packages/react"
   },
   "exports": {
@@ -58,7 +58,7 @@
   },
   "peerDependencies": {
     "@livekit/krisp-noise-filter": "^0.2.12",
-    "livekit-client": "git+https://github.com/livekit/client.git",
+    "livekit-client": "https://github.com/livekit/client-sdk-js.git",
     "react": ">=18",
     "react-dom": ">=18",
     "tslib": "^2.6.2"
@@ -79,6 +79,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^4.3.2",
+    "eslint-config-lk-custom": "0.1.3",
     "jsdom": "^26.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
