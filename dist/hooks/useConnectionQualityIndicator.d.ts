@@ -1,4 +1,4 @@
-import { Participant, ConnectionQuality } from 'livekit-client';
+import { Participant } from 'livekit-client';
 /** @public */
 export interface ConnectionQualityIndicatorOptions {
     participant?: Participant;
@@ -15,6 +15,6 @@ export interface ConnectionQualityIndicatorOptions {
  */
 export declare function useConnectionQualityIndicator(options?: ConnectionQualityIndicatorOptions): {
     className: "lk-connection-quality";
-    quality: ConnectionQuality;
+    quality: any;
 };
 //# sourceMappingURL=useConnectionQualityIndicator.d.ts.map

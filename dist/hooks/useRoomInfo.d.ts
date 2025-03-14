@@ -15,7 +15,7 @@ export interface UseRoomInfoOptions {
 }
 /** @public */
 export declare function useRoomInfo(options?: UseRoomInfoOptions): {
-    name: string;
-    metadata: string | undefined;
+    name: any;
+    metadata: any;
 };
 //# sourceMappingURL=useRoomInfo.d.ts.map

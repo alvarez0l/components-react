@@ -7,5 +7,5 @@ import { Participant } from 'livekit-client';
  * ```
  * @public
  */
-export declare function useIsSpeaking(participant?: Participant): boolean;
+export declare function useIsSpeaking(participant?: Participant): any;
 //# sourceMappingURL=useIsSpeaking.d.ts.map

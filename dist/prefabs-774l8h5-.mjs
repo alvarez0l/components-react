@@ -1,8 +1,8 @@
 import { Track as y, facingModeFromLocalTrack as ie, Mutex as oe, createLocalTracks as ue, createLocalVideoTrack as le, VideoPresets as de, createLocalAudioTrack as me, RoomEvent as fe } from "livekit-client";
 import * as e from "react";
-import { C as G, S as he, a as pe, M as B, b as ge, T as R, c as Ee, d as ve, D as K, e as Se, f as H, L as J, G as ke, P as z, F as be, g as Ce, h as we, R as Ie, i as ye, j as Me, k as Ne, B as Pe } from "./components-vm7194Lz.mjs";
-import { i as Q, am as Te, an as Le, p as P, a as Ae, ao as De, ap as Re, $ as q, aq as Ve, ar as Oe } from "./contexts-BwNSZuXm.mjs";
-import { z as $e, o as Ue, A as _e, B as x, C as Fe, D as Be, E as qe, F as xe, G as X, m as Y, x as Z, H as We, I as je } from "./room-FLLe___6.mjs";
+import { C as G, S as he, a as pe, M as B, b as ge, T as R, c as Ee, d as ve, D as K, e as Se, f as H, L as J, G as ke, P as z, F as be, g as Ce, h as we, R as Ie, i as ye, j as Me, k as Ne, B as Pe } from "./components-BeXtHOAa.mjs";
+import { i as Q, am as Te, an as Le, p as P, a as Ae, ao as De, ap as Re, $ as q, aq as Ve, ar as Oe } from "./contexts-BACje0Vb.mjs";
+import { z as $e, o as Ue, A as _e, B as x, C as Fe, D as Be, E as qe, F as xe, G as X, m as Y, x as Z, H as We, I as je } from "./room-CAwzLDkV.mjs";
 function ee({
   messageFormatter: i,
   messageDecoder: l,
@@ -423,7 +423,7 @@ function te({
       onChange: E,
       onDeviceError: (k) => a == null ? void 0 : a({ source: y.Source.ScreenShare, error: k })
     },
-    S && (h ? "Stop screen share" : "Share screen")
+    S && (h ? "Остановить демонстрацию" : "Демонстрация экрана")
   ), t.chat && /* @__PURE__ */ e.createElement(G, null, c && /* @__PURE__ */ e.createElement(Ee, null), S && "Чат"), t.settings && /* @__PURE__ */ e.createElement(Ke, null, c && /* @__PURE__ */ e.createElement(ve, null), S && "Настройки"), t.leave && /* @__PURE__ */ e.createElement(K, null, c && /* @__PURE__ */ e.createElement(Se, null), S && "Отключиться"), /* @__PURE__ */ e.createElement(H, null));
 }
 function et({
@@ -550,4 +550,4 @@ export {
   at as c,
   Ye as u
 };
-//# sourceMappingURL=prefabs-1KMUazAe.mjs.map
+//# sourceMappingURL=prefabs-774l8h5-.mjs.map

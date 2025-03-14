@@ -1,4 +1,4 @@
-import { KrispNoiseFilterProcessor, NoiseFilterOptions } from '@livekit/krisp-noise-filter';
+import { NoiseFilterOptions } from '@livekit/krisp-noise-filter';
 import { TrackReferenceOrPlaceholder } from '../../../../packages/core/dist/index.d.ts';
 /**
  * @beta
@@ -37,6 +37,6 @@ export declare function useKrispNoiseFilter(options?: useKrispNoiseFilterOptions
     setNoiseFilterEnabled: (enable: boolean) => Promise<void>;
     isNoiseFilterEnabled: boolean;
     isNoiseFilterPending: boolean;
-    processor: KrispNoiseFilterProcessor | undefined;
+    processor: any;
 };
 //# sourceMappingURL=useKrispNoiseFilter.d.ts.map

@@ -26,5 +26,5 @@ export interface UseParticipantsOptions {
  * ```
  * @public
  */
-export declare function useParticipants(options?: UseParticipantsOptions): (import('livekit-client').RemoteParticipant | import('livekit-client').LocalParticipant)[];
+export declare function useParticipants(options?: UseParticipantsOptions): any[];
 //# sourceMappingURL=useParticipants.d.ts.map

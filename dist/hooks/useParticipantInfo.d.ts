@@ -14,8 +14,8 @@ export interface UseParticipantInfoOptions {
 }
 /** @public */
 export declare function useParticipantInfo(props?: UseParticipantInfoOptions): {
-    identity: string | undefined;
-    name: string | undefined;
-    metadata: string | undefined;
+    identity: any;
+    name: any;
+    metadata: any;
 };
 //# sourceMappingURL=useParticipantInfo.d.ts.map

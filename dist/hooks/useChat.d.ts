@@ -33,8 +33,8 @@ import { ChatOptions, ReceivedChatMessage } from '../../packages/core/dist/index
  * @public
  */
 export declare function useChat(options?: ChatOptions): {
-    send: (message: string) => Promise<import('livekit-client').ChatMessage>;
-    update: (message: string, originalMessageOrId: string | import('livekit-client').ChatMessage) => Promise<{
+    send: (message: string) => Promise<import('../../packages/core/dist/index.d.ts').ChatMessage>;
+    update: (message: string, originalMessageOrId: string | import('../../packages/core/dist/index.d.ts').ChatMessage) => Promise<{
         readonly message: string;
         readonly editTimestamp: number;
         readonly id: string;

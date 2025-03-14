@@ -8,5 +8,5 @@ export interface UseIsEncryptedOptions {
 /**
  * @alpha
  */
-export declare function useIsEncrypted(participant?: Participant, options?: UseIsEncryptedOptions): boolean;
+export declare function useIsEncrypted(participant?: Participant, options?: UseIsEncryptedOptions): any;
 //# sourceMappingURL=useIsEncrypted.d.ts.map

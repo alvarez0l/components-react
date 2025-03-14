@@ -8,5 +8,5 @@ import { Room } from 'livekit-client';
  * ```
  * @public
  */
-export declare function useConnectionState(room?: Room): import('livekit-client').ConnectionState;
+export declare function useConnectionState(room?: Room): any;
 //# sourceMappingURL=useConnectionStatus.d.ts.map

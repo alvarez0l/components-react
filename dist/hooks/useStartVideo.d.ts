@@ -21,6 +21,6 @@ export declare function useStartVideo({ room, props }: UseStartVideoProps): {
             display: string;
         };
     };
-    canPlayVideo: boolean;
+    canPlayVideo: any;
 };
 //# sourceMappingURL=useStartVideo.d.ts.map

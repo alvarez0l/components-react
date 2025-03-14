@@ -179,7 +179,7 @@ export function ControlBar({
           onChange={onScreenShareChange}
           onDeviceError={(error) => onDeviceError?.({ source: Track.Source.ScreenShare, error })}
         >
-          {showText && (isScreenShareEnabled ? 'Stop screen share' : 'Share screen')}
+          {showText && (isScreenShareEnabled ? 'Остановить демонстрацию' : 'Демонстрация экрана')}
         </TrackToggle>
       )}
       {visibleControls.chat && (

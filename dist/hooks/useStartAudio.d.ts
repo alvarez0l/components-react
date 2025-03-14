@@ -22,6 +22,6 @@ export declare function useStartAudio({ room, props }: UseStartAudioProps): {
             display: string;
         };
     };
-    canPlayAudio: boolean;
+    canPlayAudio: any;
 };
 //# sourceMappingURL=useStartAudio.d.ts.map

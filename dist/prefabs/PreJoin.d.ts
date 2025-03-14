@@ -1,4 +1,4 @@
-import { CreateLocalTracksOptions, LocalAudioTrack, LocalTrack, LocalVideoTrack, TrackProcessor, Track } from 'livekit-client';
+import { CreateLocalTracksOptions, LocalAudioTrack, LocalVideoTrack, TrackProcessor, Track } from 'livekit-client';
 import { LocalUserChoices } from '../../packages/core/dist/index.d.ts';
 import * as React from 'react';
 /**
@@ -30,7 +30,7 @@ export interface PreJoinProps extends Omit<React.HTMLAttributes<HTMLDivElement>,
     videoProcessor?: TrackProcessor<Track.Kind.Video>;
 }
 /** @public */
-export declare function usePreviewTracks(options: CreateLocalTracksOptions, onError?: (err: Error) => void): LocalTrack<Track.Kind>[] | undefined;
+export declare function usePreviewTracks(options: CreateLocalTracksOptions, onError?: (err: Error) => void): LocalTrack[] | undefined;
 /**
  * @public
  * @deprecated use `usePreviewTracks` instead

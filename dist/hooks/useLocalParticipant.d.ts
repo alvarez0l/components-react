@@ -1,4 +1,4 @@
-import { TrackPublication, LocalParticipant, Room } from 'livekit-client';
+import { Room } from 'livekit-client';
 /** @public */
 export interface UseLocalParticipantOptions {
     /**
@@ -17,13 +17,13 @@ export interface UseLocalParticipantOptions {
  * @public
  */
 export declare function useLocalParticipant(options?: UseLocalParticipantOptions): {
-    isMicrophoneEnabled: boolean;
-    isScreenShareEnabled: boolean;
-    isCameraEnabled: boolean;
-    microphoneTrack: TrackPublication | undefined;
-    cameraTrack: TrackPublication | undefined;
-    lastMicrophoneError: Error | undefined;
-    lastCameraError: Error | undefined;
-    localParticipant: LocalParticipant;
+    isMicrophoneEnabled: any;
+    isScreenShareEnabled: any;
+    isCameraEnabled: any;
+    microphoneTrack: any;
+    cameraTrack: any;
+    lastMicrophoneError: any;
+    lastCameraError: any;
+    localParticipant: any;
 };
 //# sourceMappingURL=useLocalParticipant.d.ts.map

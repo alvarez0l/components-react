@@ -7,5 +7,5 @@ import { Room } from 'livekit-client';
  * ```
  * @public
  */
-export declare function useIsRecording(room?: Room): boolean;
+export declare function useIsRecording(room?: Room): any;
 //# sourceMappingURL=useIsRecording.d.ts.map

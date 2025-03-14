@@ -1,4 +1,4 @@
-import { RoomEvent, RemoteParticipant, Room } from 'livekit-client';
+import { RoomEvent, Room } from 'livekit-client';
 /** @public */
 export interface UseRemoteParticipantsOptions {
     /**

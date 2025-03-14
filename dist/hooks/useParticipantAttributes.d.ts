@@ -14,7 +14,8 @@ export interface UseParticipantAttributesOptions {
 }
 /** @public */
 export declare function useParticipantAttributes(props?: UseParticipantAttributesOptions): {
-    attributes: Readonly<Record<string, string>> | undefined;
+    changed: Readonly<Record<string, string>>;
+    attributes: Readonly<Record<string, string>>;
 };
 /**
  * The `useParticipantAttribute` hook returns the latest value of a given attribute key of a participant.
@@ -26,5 +27,5 @@ export declare function useParticipantAttributes(props?: UseParticipantAttribute
  * ```
  * @public
  */
-export declare function useParticipantAttribute(attributeKey: string, options?: UseParticipantAttributesOptions): string;
+export declare function useParticipantAttribute(attributeKey: string, options?: UseParticipantAttributesOptions): any;
 //# sourceMappingURL=useParticipantAttributes.d.ts.map

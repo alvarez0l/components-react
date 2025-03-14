@@ -19,7 +19,7 @@ export declare function useTrackToggle<T extends ToggleSource>({ source, onChang
     toggle: ((forceState?: boolean) => Promise<void>) | ((forceState?: boolean, captureOptions?: import('../../packages/core/dist/index.d.ts').CaptureOptionsBySource<T> | undefined) => Promise<boolean | undefined>);
     enabled: boolean;
     pending: boolean;
-    track: import('livekit-client').LocalTrackPublication | undefined;
+    track: any;
     buttonProps: React.ButtonHTMLAttributes<HTMLButtonElement>;
 };
 //# sourceMappingURL=useTrackToggle.d.ts.map

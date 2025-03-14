@@ -7,5 +7,5 @@
  * ```
  * @public
  */
-export declare function useSpeakingParticipants(): import('livekit-client').Participant[];
+export declare function useSpeakingParticipants(): any;
 //# sourceMappingURL=useSpeakingParticipants.d.ts.map
